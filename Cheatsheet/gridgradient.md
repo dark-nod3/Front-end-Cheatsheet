@@ -1,53 +1,15 @@
 # Crazy Things You Can Do with CSS Gradients
 Next-level css gradients:
 
-you may think we can just make this with gradient:
-
-<table>
-  <tr>
-    <th>HTML</th>
-    <th>CSS</th>
-    <th>JavaScript</th>
-  </tr>
-  <tr>
-    <td>
+you may think we can just make this with gradient for following div:
 ```html
-<button>Click me</button>
-
-</td>
-<td>
-
-css
-button { color: red; }
-
-</td>
-<td>
-
-js
-alert('Hello');
-
-</td>
-  </tr>
-</table>
-
-
+<div class="test"></div>
+```
 ---
-
-## خروجی چی می‌شه؟
-✅ سه تا code block  
-✅ دقیقاً **کنار هم**  
-✅ کاملاً سازگار با GitHub Markdown  
-✅ ساده و cheatsheet-friendly
-
----
-
-## اگر بعداً خواستی گسترشش بدی
-مثلاً چند ردیف:
-
-```html
-<tr>
-  <td>...</td>
-  <td>...</td>
-  <td>...</td>
-</tr>
-
+<div style="width: 100%;height: 200px;background-image: linear-gradient(black, red);border-radius: 20px;">
+```css
+.test {
+  height: 200px;
+  backgorund-image: linear-gradient(black, red);
+}
+```
