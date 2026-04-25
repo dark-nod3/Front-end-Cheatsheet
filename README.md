@@ -1,4 +1,4 @@
-#Welcome to Front-End Cheatsheet
+# Welcome to Front-End Cheatsheet
 here is the all you need!
 
-[cheatsheet](cheatsheet/cheatsheet.md)
+[cheatsheet](Cheatsheet/Cheatsheet.md)
