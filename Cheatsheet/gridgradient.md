@@ -3,92 +3,51 @@ Next-level css gradients:
 
 you may think we can just make this with gradient:
 
-```html
-...
-
-css
-...
-
-
-Markdown همه‌ی بلاک‌ها رو **عمودی (زیر هم)** رندر می‌کنه و هیچ مفهومی از layout نداره.
-
----
-
-## ✅ راه‌حل عملی تو GitHub: استفاده از HTML داخل Markdown
-
-GitHub اجازه می‌ده HTML خام داخل `README.md` بنویسی.
-
-### مثال: HTML و CSS کنار هم
-
-```html
 <table>
+  <tr>
+    <th>HTML</th>
+    <th>CSS</th>
+    <th>JavaScript</th>
+  </tr>
   <tr>
     <td>
 ```html
-<div class="box">Hello</div>
+<button>Click me</button>
 
 </td>
 <td>
 
 css
-.box {
-  color: red;
-}
+button { color: red; }
+
+</td>
+<td>
+
+js
+alert('Hello');
 
 </td>
   </tr>
 </table>
 
 
-✅ نتیجه: دو تا code block **کنار هم** نمایش داده می‌شن.
+---
+
+## خروجی چی می‌شه؟
+✅ سه تا code block  
+✅ دقیقاً **کنار هم**  
+✅ کاملاً سازگار با GitHub Markdown  
+✅ ساده و cheatsheet-friendly
 
 ---
 
-## ✅ روش تمیزتر با `<div>` و flex (محدود ولی کار می‌کنه)
+## اگر بعداً خواستی گسترشش بدی
+مثلاً چند ردیف:
 
 ```html
-<div style="display:flex; gap:16px;">
+<tr>
+  <td>...</td>
+  <td>...</td>
+  <td>...</td>
+</tr>
 
-<div>
-```html
-<button>Click</button>
-
-</div>
-
-<div>
-
-css
-button {
-  background: black;
-  color: white;
-}
-
-</div>
-
-</div>
-
-
-📌 GitHub:
-- `style` inline رو قبول می‌کنه
-- فایل جداگانه CSS قبول نمی‌کنه
-- بعضی propertyها محدودن ولی `flex` کار می‌کنه
-
----
-
-## ⚠️ محدودیت‌های GitHub Markdown
-✅ HTML inline → مجاز  
-❌ `<script>` → بلاک می‌شه  
-❌ CSS خارجی → بلاک  
-⚠️ بعضی styleها ignore می‌شن
-
----
-
-## ✅ راه ساده‌تر (بدون HTML)
-اگر کنار هم بودن **خیلی مهم نیست**:
-- یکی رو عنوان بده
-- یا از table استفاده کن (حتی بدون code block)
-
-```md
-| HTML | CSS |
-|------|-----|
-| `<div></div>` | `.box {}` |
