@@ -20,6 +20,7 @@ you may think we can just make this with gradient for following div:
 
 #### But actually we can do lots of things using `linear-gradient` , `background-repeat`, `background-size`!
 <section style="background: white;">
+  asdfas
 </section>
 - [ ] test
 - [ ] test
