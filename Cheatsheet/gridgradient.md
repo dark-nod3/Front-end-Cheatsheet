@@ -24,3 +24,5 @@ you may think we can just make this with gradient for following div:
 - [ ] test
 - [x] test
 
+- DONE: setup project
+- TODO: write docs
