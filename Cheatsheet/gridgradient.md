@@ -7,11 +7,8 @@ you may think we can just make this with gradient for following div:
 <div class="test"></div>
 ```
 
-<table>
-  <tr>
-<div style="display:block; width:100%; min-height:200px; background:linear-gradient(black, red); border-radius:20px;"></div>
-  </tr>
-</table>
+
+<p style="display:block; width:100%; min-height:200px; background:linear-gradient(black, red); border-radius:20px;"></p>
 
 
 ```css
