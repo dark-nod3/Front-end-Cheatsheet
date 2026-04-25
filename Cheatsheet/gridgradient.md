@@ -28,6 +28,6 @@ you may think we can just make this with gradient for following div:
 
 
 ### TODO
-* [ ] learn HTML
-* [ ] learn CSS
+* [] learn HTML
+* [] learn CSS
 * [x] learn Markdown
