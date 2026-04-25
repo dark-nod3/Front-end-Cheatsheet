@@ -1,4 +1,4 @@
-# Crazy Things You Can Do with CSS Gradients
+# Crazy Things You Can Do with CSS Gradients:
 Next-level css gradients:
 
 you may think we can just make this with gradient for following div:
