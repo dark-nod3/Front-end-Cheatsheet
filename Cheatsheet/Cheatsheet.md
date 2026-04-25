@@ -1,13 +1,8 @@
 # Here’s a list of some cool CSS tricks.
 have fun!
 
-how to [centerize something](centerize.md) in css ? 
+1. how to [centerize something](centerize.md) in css ? 
 
-how to use [css variables](variables.md) ?
+2. how to use [css variables](variables.md) ?
 
-how to make [grid using GRADIENT](gridgradient.md) ? 
-
-
-
-- ✅ Done
-- ⬜ Todo
+3. how to make [grid using GRADIENT](gridgradient.md) ? 
