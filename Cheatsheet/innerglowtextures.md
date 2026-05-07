@@ -18,7 +18,7 @@ box-shadow: inset 10px 0 10px 0 black;
 
 #### 2) radial-gradient گرادینت گرد
 ```css
-background-image: radial-gradient(/*رنگ*/  ,/*رنگ*/  ,/*جایگاه*/  at  /*اندازه*/  /*شگل*/); 
+background-image: radial-gradient(/*اندازه*/  /*شگل*/  at  /*رنگ*/  , /*رنگ*/  , /*جایگاه*/); 
 ```
 background-image: radial-gradient(<شگل> <اندازه> at <جایگاه>, <رنگ>, <رنگ>);
 به جای هر value چی میتونیم بنویسیم ؟
