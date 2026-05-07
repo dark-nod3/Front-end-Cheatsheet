@@ -5,4 +5,6 @@ have fun!
 
 2. how to use [css variables](variables.md) ?
 
-3. how to make [grid using GRADIENT](gridgradient.md) ? 
+3. how to make [grid using GRADIENT](gridgradient.md) ?
+
+4. how to make [innner glowing textures](innerglowtextures.md)
