@@ -9,13 +9,17 @@
 box-shadow: inset  /*رنگ*/  /*شروع نشر*/  /*شعاع بلور*/  /*جایگاه عمودی*/  /*جایگاه افقی*/;
 ```
 مثال:
+```css
 box-shadow: inset 10px 0 10px 0 black;
-
+```
 همه ی value ها مثل shadow هستن فقط اولش کلمه inset قرار میگیره
 
 ---
 
 #### 2) radial-gradient گرادینت گرد
+```css
+background-image: radial-gradient(/*رنگ*/  ,/*رنگ*/  ,/*جایگاه*/  at  /*اندازه*/  /*شگل*/); 
+```
 background-image: radial-gradient(<شگل> <اندازه> at <جایگاه>, <رنگ>, <رنگ>);
 به جای هر value چی میتونیم بنویسیم ؟
 <شکل> : circle یا ellipse به معنای دایره و بیضی
