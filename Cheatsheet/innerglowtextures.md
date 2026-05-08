@@ -57,6 +57,7 @@ background-image: radial-gradient(circle 70% at center, black, transparent);
 <br />
 <br />
 <br />
+
 #### 3) نحوه اعمال چند مقدار به یک المنت
 مبشه تو این دو `property` همزمان به یک المنت چند استایل اعمال کرذ
 
