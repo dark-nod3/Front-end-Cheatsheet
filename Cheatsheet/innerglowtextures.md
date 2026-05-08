@@ -100,7 +100,10 @@ bakground:
 <br />
 <br />
 
+<p align="center">
 مثال زیر یک نمونه کامل استفاده از این افکت هاست:
+</p>
+
 ```html
 <!-- index.html-->
 <!DOCTYPE html>
@@ -159,16 +162,6 @@ body {
     transform: translate(-50%, -50%);
 }
 ```
-
-<center>
-    
-کپی و بررسی کنید
-
-</center>
-
-
-<h1 align="center">Project Title</h1>
-
 <p align="center">
-  short description here
+کپی و بررسی کنید
 </p>
