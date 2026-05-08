@@ -59,7 +59,7 @@ background-image: radial-gradient(circle 70% at center, black, transparent);
 <br />
 
 ### 3) نحوه اعمال چند مقدار به یک المنت
-مبشه تو این دو `property` همزمان به یک المنت چند استایل اعمال کرذ
+مبشه تو این دو `property` همزمان به یک المنت چند استایل اعمال کرد
 
 مثال برای `shadow`:
 ```css
@@ -73,5 +73,14 @@ box-shadow:
 >نکته: بین `value` ها حتما باید از ` , ` (کاما | comma) استفاده کرد و در پایان از ` ; ` (سمیکالن | semicolon) استفاده کرد برای تایین اینکه اون `property` تموم شده.<br>
 >مهم نیست که همه رو تو یک خط بنویسیم یا اینکه مثل مثال بالا. این سبک نوشتن فقظ برای خوانایی بهتره.
 
+<br />
+<br />
 
-مثال برای `background`
+مثال برای `background`:
+```css
+bakground:
+    radial-gradient(circle at left top, black, transparent 60%),
+    radial-gradient(circle at right bottom, white, transparent 30%),
+    red;
+```
+تو این مثال ما به یک المنت سه تا پس زمینه دادیم. دو تا گرادینت گرد و یک رنگ ثابت. چون به گرادینت ها سایز ندادیم به صورت پیش فرض به اندازه کل المنت هستن و ما با تایین ` % ` برای رنگ دوم (`transparent`) ، اندازه دایره های گرادینت دار رو کنترل کزدیم.
