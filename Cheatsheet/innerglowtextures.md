@@ -89,3 +89,65 @@ bakground:
 >نکته: ما از ویژگیِ(property) `background` استفاده کردیم و نه `background-image` یا `background-color`.<br>
 دلیلش اینه که `background` خالی به ما اجازه میده هر چیزی رو داخلش تعریف کنیم مثل<br>
 >`linear-gradient()` , `radial-gradient()` , `#hexcode` , `rgb()` , `colorname` و حتی `url(path)` و ما رو محدود به استفاده از فقط property های `background-image` یا `background-color` نمیکنه.
+
+<br />
+<br />
+<br />
+
+---
+
+<br />
+<br />
+<br />
+مثال زیر یک نمونه کامل استفاده از این افکت هاست:
+```html
+<!-- index.html-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Glowing Blood Card</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <p>BLOOD CARD</p>
+        </div>
+    </body>
+</html>
+```
+
+
+```css
+/* style.css */
+.card {
+    margin: 300px auto;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background:
+        radial-gradient(circle 80px at 10% 20%, #2e2e3060, transparent),
+        radial-gradient(circle 70px at 90% 80%, #f5f5f560, transparent),
+        #c51d34;
+        /* #c51d34cc; */
+    box-shadow:
+    10px 5px 20px #232330b2,
+    -10px -5px 20px #c51d3480,
+    inset 0 0 10px 2px #891a3b;
+    position: relative;
+    transform: scale(2);
+}
+
+.card p {
+    color: #f5f5f5;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+```
+کپی و بررسی کنید
