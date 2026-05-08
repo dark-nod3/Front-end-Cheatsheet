@@ -102,6 +102,26 @@ bakground:
 
 مثال زیر یک نمونه کامل استفاده از این افکت هاست:
 ```html
+<!-- index.html-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Glowing Blood Card</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <p>BLOOD CARD</p>
+        </div>
+    </body>
+</html>
+```
+
+
+
+```ccc
 /* style.css */
 body {
     margin: 0;
