@@ -7,5 +7,5 @@ have fun!
 
 3. how to make [grid using GRADIENT](gridgradient.md) ?
 
-4. how to make [innner glowing textures](innerglowtextures.md) ?
+4. how to make [inner glowing textures](innerglowtextures.md) ?
    
