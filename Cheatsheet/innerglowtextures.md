@@ -88,4 +88,4 @@ bakground:
 >[!NOTE]
 >نکته: ما از ویژگیِ(property) `background` استفاده کردیم و نه `background-image` یا `background-color`.<br>
 دلیلش اینه که `background` خالی به ما اجازه میده هر چیزی رو داخلش تعریف کنیم مثل<br>
->`linear-gradient()` , `radial-gradient()` , `#hexcode` , `rgb()` , `colorname` و حتی `url(path)` و ما رو محدود به استفاده از فقظ property های `background-image` یا `background-color` نمیکنه.
+>`linear-gradient()` , `radial-gradient()` , `#hexcode` , `rgb()` , `colorname` و حتی `url(path)` و ما رو محدود به استفاده از فقط property های `background-image` یا `background-color` نمیکنه.
