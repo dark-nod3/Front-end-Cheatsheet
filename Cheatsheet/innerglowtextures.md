@@ -160,8 +160,8 @@ body {
 }
 ```
 
-<p align="center">
+<center>
     
 کپی و بررسی کنید
 
-</p>
+</center>
