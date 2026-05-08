@@ -17,7 +17,9 @@ box-shadow: inset 10px 0 10px 0 black;
 <br />
 <br />
 <br />
+
 ---
+
 <br />
 <br />
 <br />
@@ -49,7 +51,9 @@ background-image: radial-gradient(circle 70% at center, black, transparent);
 <br />
 <br />
 <br />
+
 ---
+
 <br />
 <br />
 <br />
