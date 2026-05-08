@@ -87,4 +87,5 @@ bakground:
 چون به گرادینت ها سایز ندادیم به صورت پیش فرض به اندازه کل المنت هستن و ما با تایین ` % ` برای رنگ دوم (`transparent`) ، اندازه دایره های گرادینت دار رو کنترل کزدیم.
 >[!NOTE]
 >نکته: ما از ویژگیِ(property) `background` استفاده کردیم و نه `background-image` یا `background-color`.<br>
-دلیلش اینه که `background` خالی به ما اجازه میده هر چیزی رو داخلش تعریف کنیم مثل `()linear-gradient` , `radial-gradient()` ,  `#hexcode` , `rgb()` و حتی `url(path)` و ما رو محدود به استفاده از فقظ property های `background-image` یا `background-color` نمیکنه.
+دلیلش اینه که `background` خالی به ما اجازه میده هر چیزی رو داخلش تعریف کنیم مثل
+>`linear-gradient()` , `radial-gradient()` ,  `#hexcode` , `rgb()` و حتی `url(path)` و ما رو محدود به استفاده از فقظ property های `background-image` یا `background-color` نمیکنه.
