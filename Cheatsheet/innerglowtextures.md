@@ -102,26 +102,14 @@ bakground:
 
 مثال زیر یک نمونه کامل استفاده از این افکت هاست:
 ```html
-<!-- index.html-->
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Glowing Blood Card</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="card">
-            <p>BLOOD CARD</p>
-        </div>
-    </body>
-</html>
-```
-
-
-```css
 /* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    background-color: #f5f5f5;
+}
+
 .card {
     margin: 300px auto;
     width: 200px;
