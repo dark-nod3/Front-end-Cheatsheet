@@ -121,7 +121,7 @@ bakground:
 
 
 
-```ccc
+```css
 /* style.css */
 body {
     margin: 0;
@@ -159,4 +159,9 @@ body {
     transform: translate(-50%, -50%);
 }
 ```
+
+<p align="center">
+    
 کپی و بررسی کنید
+
+</p>
