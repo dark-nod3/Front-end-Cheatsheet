@@ -39,4 +39,4 @@ background-image: radial-gradient(/*اندازه*/  /*شگل*/  at  /*رنگ*/  
 radial-gradient: circle 70% at center, black, transparent;
 ```
 تو این مثال یه دایره گرادینتی به اندازه `70%` المنت و در مرکز المنت ساختیم که از مرکز رنگ مشکی داره و به سمت بی شفاف شدن میره
----
+
